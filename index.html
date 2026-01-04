@@ -6,6 +6,25 @@
 <title>Trip Hokkaido • 23 Dec 2025 – 2 Jan 2026</title>
 
 <style>
+
+.link-btn{
+  display:inline-block;
+  margin-top:8px;
+  margin-right:8px;
+  padding:10px 14px;
+  border-radius:12px;
+  border:1px solid var(--line);
+  background:rgba(76,201,240,.15);
+  color:var(--text);
+  font-size:14px;
+  text-decoration:none;
+}
+.link-btn:hover{
+  background:rgba(76,201,240,.3);
+  border-color:var(--accent);
+}
+
+  
 :root{
   --bg:#0b1220; --card:#121a2b; --muted:#93a4c7; --text:#eaf0ff;
   --accent:#4cc9f0; --accent2:#80ffdb; --line:#22304e; --warn:#ffd166;
@@ -329,14 +348,25 @@ button.copybtn:hover{border-color:rgba(76,201,240,.75)}
         </p>
       </details>
 
-      <details>
-        <summary>Berapa kos Airbnb?</summary>
-        <p>
-          Jumlah penginapan (Asahikawa 4N + Noboribetsu 4N) = RM 9,200.00 + RM 8,973.00 = RM 18,173.00.
-          Jumlah termasuk caj 1.5% = RM 18,445.59.
-          Link ke Airbnb Asahikawa: https://www.airbnb.co.uk/rooms/37217376?viralityEntryPoint=1&s=76
-          Link ke Airbnb Noboribetsu: https://www.airbnb.co.uk/rooms/938843868500723530?viralityEntryPoint=1&s=76
-        </p>
+    <details>
+      <summary>Berapa kos Airbnb?</summary>
+      <p>
+        Jumlah penginapan (Asahikawa 4N + Noboribetsu 4N) = 
+        RM 9,200.00 + RM 8,973.00 = RM 18,173.00.<br>
+        Jumlah termasuk caj 1.5% = <b>RM 18,445.59</b>.
+      </p>
+
+      <a class="link-btn"
+         href="https://www.airbnb.co.uk/rooms/37217376?viralityEntryPoint=1&s=76"
+         target="_blank" rel="noopener">
+         🏠 Airbnb Asahikawa
+      </a>
+
+        <a class="link-btn"
+         href="https://www.airbnb.co.uk/rooms/938843868500723530?viralityEntryPoint=1&s=76"
+         target="_blank" rel="noopener">
+         🏠 Airbnb Noboribetsu
+        </a>
       </details>
 
       <details>
